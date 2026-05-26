@@ -11,7 +11,7 @@ PyFluent 기반 PEMFC(고분자 전해질 연료전지) CFD 자동화 GUI
 
 ## 주요 기능
 
-![GUI Screenshot](image.png)
+<img src="https://github.com/user-attachments/assets/41400bcf-298e-4af1-860b-4694b71a6275"  width="970" height="1061"/>
 
 - **Case File Reader** — Case 파일 로드 → UDF unload/load → Excute on Demands → Case 파일 재로드 
 - **Run Calculator (Single Run)** — 초기화 → Species Patch → 단순 유동 → Potential Patch → 전기화학 반응
