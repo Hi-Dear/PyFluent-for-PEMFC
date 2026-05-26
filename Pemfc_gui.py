@@ -303,7 +303,7 @@ class MainWindow(QMainWindow):
         return g
 
     def _grp_conditions(self):
-        g = QGroupBox("⚡ 운전 조건")
+        g = QGroupBox("⚡Patching")
         lay = QVBoxLayout(g)
         lay.setSpacing(6)
 
