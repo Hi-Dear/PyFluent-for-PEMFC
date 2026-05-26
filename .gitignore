@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Fluent 자동 생성 파일
+*.trn
+*.cas
+*.dat
+*.cas.h5
+*.dat.h5
+*.jou
+*.out
+
+# 설정 / 민감 정보
+config.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
