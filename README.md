@@ -11,16 +11,15 @@ PyFluent 기반 PEMFC(고분자 전해질 연료전지) CFD 자동화 GUI
 
 ## 주요 기능
 
-- **Case File Reader** — Case 파일 로드 + UDF unload/load + rename_UDvars 자동 실행
-- **Run Calculator (Single Run)** — 초기화 → Species/Potential Patch → 단순 유동 → 전기화학 반응
-- **Run Calculator (Parameter Study)** — IV 커브 전압 스윕 자동화 (범위 / 직접 입력)
-- **Mesh Replacer** — Mesh 교체 + 막 재료 설정
+- **Case File Reader** — Case 파일 로드 → UDF unload/load → Excute on Demands → Case 파일 재로드 자동화
+- **Run Calculator (Single Run)** — 초기화 → Species Patch → 단순 유동 → /Potential Patch → 전기화학 반응. 자동화
+- **Run Calculator (Parameter Study)** — 원하는 voltage 구간 측정 자동화 (범위 / 직접 입력)
+- **Mesh Replacer** — Mesh 교체 → membran nr211 재료 설정 자동화
 
 ## 요구 사항
 
 ```
-ansys-fluent-core
-PyQt5
+pip install -r requirements.txt
 ```
 
 ## 실행
