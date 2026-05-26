@@ -31,7 +31,8 @@ python pemfc_gui.py
 ```
 
 ## 참고
-
+- 본 코드는 ANSYS Fluent 25.2 버전에서 개발됨
+(다른 버전도 가능할 수 있지만 호환이 안될 가능성도 있기에 권장하지는 않음)
 - Fluent는 이 GUI를 통해 실행(`launch_fluent`)해야 제어 가능
 - GUI 종료 시 Fluent는 계속 실행됨 (`cleanup_on_exit=False`)
 - 실행 설정(precision, processor count 등)은 `config.json`에 자동 저장
